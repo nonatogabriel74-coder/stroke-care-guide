@@ -30,6 +30,15 @@ O conteúdo gerado organiza-se em:
 2. **Manual do Cuidador:** Rotina de assistência domiciliar.
 3. **Matriz de Resposta Rápida:** Sinais de alerta (Tabela).
 
+## 5. Estrutura do Repositório
+Para garantir a reprodutibilidade e transparência do projeto, a estrutura está organizada da seguinte forma:
+
+```text
+/
+├── README.md               # Documentação técnica e metodologia
+├── /docs                   # Fontes originais (PDFs de diretrizes e manuais)
+├── /prompts                # Arquivos .txt com os prompts refinados (Dual-Track)
+└── /output                 # Resultados exportados do NotebookLM (Guias finais)
 ---
 > **Disclaimer:** Este projeto é informativo. Não substitui consulta médica. Em caso de emergência, procure um hospital imediatamente.
 
