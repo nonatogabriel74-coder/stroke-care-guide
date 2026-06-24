@@ -1,48 +1,37 @@
 # stroke-care-guide
-AI-powered and human-centered guide for stroke prevention, treatment, and rehabilitation.
-🌍 About the Project / Sobre o Projeto
-EN:
-This project was created to provide clear, humanized and accessible information about stroke (CVA), including prevention, treatment and rehabilitation, using Artificial Intelligence.
+# Comprehensive Stroke Care Guide: Prevention, Treatment, and Rehabilitation
 
-PT:
-Este projeto foi criado para fornecer informações claras, humanizadas e acessíveis sobre o Acidente Vascular Cerebral (AVC), incluindo prevenção, tratamento e reabilitação, utilizando Inteligência Artificial.
+## 1. Sobre o Projeto
+Este repositório documenta um projeto de curadoria e síntese de informações médicas utilizando o **NotebookLM**. O objetivo é transformar documentos técnicos complexos sobre AVC em um guia prático, útil tanto para estudantes de saúde quanto para cuidadores domiciliares. O projeto foca em **Tradução de Conhecimento**, garantindo que a informação científica seja acessível, segura e humanizada.
 
-❤️ Motivation / Motivação
-This project was inspired by a personal experience: seeing my father suffering from a stroke in a context where access to quality healthcare is limited.
+## 2. Metodologia (Passo a Passo)
 
-Este projeto nasceu de uma experiência pessoal ao ver o meu pai sofrer um AVC num contexto onde o acesso a cuidados de saúde dignos ainda é limitado.
+### 2.1 Curadoria de Fontes
+As seguintes fontes foram selecionadas e processadas no NotebookLM para garantir a precisão clínica:
+*   **[Fonte 1]:** *Diretrizes da Organização Mundial da Saúde (OMS) sobre Reabilitação Pós-AVC.*
+*   **[Fonte 2]:** *Manual Prático de Assistência Domiciliar (Associação Brasileira de AVC).*
+*   **[Fonte 3]:** *Protocolos de Prevenção Secundária de Acidente Vascular Cerebral.*
+*(Nota: Os arquivos originais estão disponíveis na pasta `/docs` deste repositório).*
 
-🎯 Objectives / Objetivos
-Provide accessible health information / Fornecer informação acessível
-Improve stroke awareness / Aumentar consciência sobre AVC
-Support families and caregivers / Apoiar familiares e cuidadores
-Promote prevention and early detection / Promover prevenção e diagnóstico precoce
-Use AI for social impact / Usar IA para impacto social
+### 2.2 Estruturação dos Prompts (Dual-Track Prompting)
+Desenvolvi prompts para filtrar as respostas de acordo com a persona:
+*   **Perfil Profissional:** *"Atue como preceptor clínico. Extraia as diretrizes técnicas destas fontes para o manejo pós-AVC, utilizando terminologia técnica adequada e estruturando em protocolos clínicos."*
+*   **Perfil Leigo/Cuidador:** *"Atue como um especialista em cuidado humanizado. Traduza os conceitos técnicos para linguagem simples e empática. Foque em passos práticos para o dia a dia e sinais de alerta imediatos."*
 
-🛠 Technologies Used / Tecnologias
-Generative AI (GenAI)
-Prompt Engineering
-Google NotebookLM
-Artificial Intelligence tools
-Knowledge curation
+## 3. "Cicatrizes" (Troubleshooting & Aprendizados)
+| Dificuldade | Ajuste (Troubleshooting) | Aprendizado |
+| :--- | :--- | :--- |
+| **Ambiguidade** | Apliquei restrições de escopo no System Prompt. | A IA exige limites claros para não misturar linguagens. |
+| **Alucinação** | Adicionei a instrução: "Responda exclusivamente com base nas fontes". | Governança de IA é vital em temas sensíveis. |
 
-🧪 Prompt Testing / Teste de Prompts
-Example prompt used:
-"Explain stroke in a simple and humanized way for families of patients."
-Goal: produce clear, empathetic and medically reliable responses.
+## 4. Estrutura do Guia Final
+O conteúdo gerado organiza-se em:
+1. **Módulo Técnico:** Protocolos de reabilitação neurofuncional.
+2. **Manual do Cuidador:** Rotina de assistência domiciliar.
+3. **Matriz de Resposta Rápida:** Sinais de alerta (Tabela).
 
-📂 Project Structure / Estrutura
-stroke-care-guide/
-│
-├── README.md
-├── prompts/
-├── resources/
-├── images/
-└── notebooklm/
-
-🚀 How to Use / Como Usar
-This project can be explored by reading the documentation and prompt examples.
-Este projeto pode ser explorado lendo a documentação e exemplos de prompts.
+---
+> **Disclaimer:** Este projeto é informativo. Não substitui consulta médica. Em caso de emergência, procure um hospital imediatamente.
 
 👨‍💻 Author / Autor
 Nonato Matondo Gabriel
