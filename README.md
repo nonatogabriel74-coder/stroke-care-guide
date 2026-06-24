@@ -39,8 +39,11 @@ Para garantir a reprodutibilidade e transparência do projeto, a estrutura está
 ├── /docs                   # Fontes originais (PDFs de diretrizes e manuais)
 ├── /prompts                # Arquivos .txt com os prompts refinados (Dual-Track)
 └── /output                 # Resultados exportados do NotebookLM (Guias finais)
+
 ---
+
 > **Disclaimer:** Este projeto é informativo. Não substitui consulta médica. Em caso de emergência, procure um hospital imediatamente.
+
 
 👨‍💻 Author / Autor
 Nonato Matondo Gabriel
