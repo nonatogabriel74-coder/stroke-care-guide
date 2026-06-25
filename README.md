@@ -45,5 +45,8 @@ Comprehensive-Stroke-Care-Guide/
 └── docs/
     ├── project_methodology.md
     └── lessons_learned.md
+
+
+    
 Para garantir a reprodutibilidade e transparência do projeto, a estrutura está organizada da seguinte forma:
 
