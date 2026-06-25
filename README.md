@@ -23,28 +23,32 @@ Comprehensive-Stroke-Care-Guide/
 │
 ├── sources/
 │   ├── README.md
-│   ├── Clinical_Guidelines_for_Stroke_Management.pdf
-│   ├── Caderno_do_Cuidador_ABAVC.pdf
-│   └── Diretrizes_em_AVC_Rede_Brasil_AVC.pdf
+│   ├── criterios_selecao_fontes.md
+│   ├── Clinical_Guidelines_Stroke_Management.pdf
+│   ├── Caderno_do_Cuidador.pdf
+│   └── Diretrizes_AVC.pdf
 │
 ├── prompts/
-│   └── prompt_log.md
+│   ├── prompt_log.md
+│   └── troubleshooting.md
 │
 ├── outputs/
 │   ├── prevention_summary.md
 │   ├── stroke_types_comparison.md
 │   ├── caregiver_guide.md
-│   └── rehabilitation_plan.md
+│   ├── rehabilitation_plan.md
+│   └── key_insights.md
 │
 ├── images/
-│   ├── stroke_care_workflow.png
-│   ├── rehabilitation_process.png
-│   ├── risk_factors_diagram.png
+│   ├── README.md
+│   ├── stroke_diagram.png
+│   ├── brain_stroke_types.png
+│   ├── rehabilitation_workflow.png
 │   └── notebooklm_project.png
 │
 └── docs/
-    ├── project_methodology.md
-    └── lessons_learned.md
+    ├── README.md
+    └── manual-paciente-avc.pdf
 
 
     
